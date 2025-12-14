@@ -20,7 +20,7 @@ jobs:
         run: ./sum_app
 
       - name: Upload Build Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sum_app
           path: sum_app
