@@ -22,4 +22,5 @@ jobs:
       - name: Deploy Fake
         env:
           DEPLOY_API_KEY: ${{ secrets.DEPLOY_API_KEY }}
-        run: echo "Deploying using API key: $DEPLOY_API_KEY"
+        run: |
+          echo "Deploying using API key: $DEPLOY_API_KEY"
